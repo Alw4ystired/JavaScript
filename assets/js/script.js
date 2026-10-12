@@ -62,6 +62,13 @@ console.log(`Cinque anni fa avevo ${ANNOCORRENTE - ANNONASCITA - 5} anni`)
 let eta = 25;
 console.log(`Età: 25 anni - Maggiorenne: ${eta >= 18}`)
 
+//quello sopra è quello che ho fatto io, sbagliato, quello giusto è
+
+let eta1;
+eta1 = 18
+const maggiorenne = eta1 >= 18
+console.log(`Età: ${eta1} - Maggiorenne: ${eta >= 18}`)
+
 /* ESERCIZIO 5 — Tipo del valore
    Cinque variabili: una string, una number, una boolean, una null, una undefined.
    Stampa per ognuna: "nome è di tipo: string" usando typeof.
@@ -129,6 +136,14 @@ console.log(`n è pari: ${n % 2 === 0}`);
 console.log(`n è divisibile per 3: ${n % 3 === 0}`);
 console.log(`n è pari E divisibile per 3: ${n % 2 === 0 && n % 3 === 0}`);
 
+//come sopra quello che ho scritto io è questo, la soluzione giusta però è quella sotto
+
+let n1;
+n1 = 20
+console.log(`n è pari: ${n1 % 2 === 0}`);
+console.log(`n è divisibile per 3: ${n1 % 3 === 0}`);
+console.log(`n è pari E divisibile per 3: ${n1 % 2 === 0 && n1 % 3 === 0}`);
+
 
 /* --EXTRA-- ESERCIZIO 9 — Triangolo
    Tre const "a", "b", "c" (lunghezze dei lati).
@@ -140,7 +155,12 @@ console.log(`n è pari E divisibile per 3: ${n % 2 === 0 && n % 3 === 0}`);
 
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const BASE = 10;
+
+
+//è messa in commento perché non faceva leggere il resto del codice (?) domani ci guardo meglio
+
+
+/*const BASE = 10;
 const LATO1 = 5;
 const LATO2 = 5;
 let = 'tipoTriangolo';
@@ -156,4 +176,4 @@ if (BASE === LATO1 && LATO1 === LATO2) {
   tipoTriangolo = 'scaleno';
 }
 
-console.log(`Il triangolo è di tipo ${tipoTriangolo}`);
+console.log(`Il triangolo è di tipo ${tipoTriangolo}`);   */
