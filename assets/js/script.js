@@ -137,4 +137,22 @@ console.log(`n è pari E divisibile per 3: ${n % 2 === 0 && n % 3 === 0}`);
    Stampa: "Triangolo isoscele, perimetro 15"
 */
 
+
+
 /* SCRIVI QUI LA TUA RISPOSTA */
+const BASE = 10;
+const LATO1 = 5;
+const LATO2 = 5;
+let = 'tipoTriangolo';
+
+console.log(`Il perimetro di un triangolo con lunghezza base 10 e lunghezza entrambi lati 5 è ${BASE + LATO1 + LATO2}`);
+
+
+if (BASE === LATO1 && LATO1 === LATO2) {
+  tipoTriangolol = "equilatero";
+} else if (BASE === LATO1 || BASE === LATO2 || LATO1 === LATO2) {
+  tipoTriangolo = "isoscele";
+} else {
+  tipoTriangolo = "scaleno";
+}
+
