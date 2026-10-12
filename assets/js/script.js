@@ -125,7 +125,9 @@ console.log(`"10" * "2" = ${"10" * "2"}`); //Sono due stringhe, che vengono molt
 /* SCRIVI QUI LA TUA RISPOSTA */
 let n = 10;
 
-
+console.log(`n è pari: ${n % 2 === 0}`);
+console.log(`n è divisibile per 3: ${n % 3 === 0}`);
+console.log(`n è pari E divisibile per 3: ${n % 2 === 0 && n % 3 === 0}`);
 
 
 /* --EXTRA-- ESERCIZIO 9 — Triangolo
