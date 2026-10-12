@@ -69,14 +69,14 @@ console.log(`Età: 25 anni - Maggiorenne: ${eta >= 18}`)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let stringa1 = 'hello World!';
+let stringa1 = 'Hello World!';
 let numero1 = 15;
 let niente = null;
 let indefinita;
 let attivo = true;
 
-console.log(`La variabile stringa2 è di tipo ${typeof stringa1}`);
-console.log(`La variabile numero2 è di tipo ${typeof numero1}`);
+console.log(`La variabile stringa1 è di tipo ${typeof stringa1}`);
+console.log(`La variabile numero1 è di tipo ${typeof numero1}`);
 console.log(`La variabile attivo è di tipo ${typeof attivo}`);
 console.log(`La variabile niente è di tipo ${typeof niente}`);
 console.log(`La variabile indefinita è di tipo ${typeof indefinita}`);
@@ -107,6 +107,11 @@ console.log(`Strict Equality ${numero === stringa}`)
    - "10" * "2"
 */
 
+console.log(`"5" + 3 = ${"5" + 3}`);
+console.log(`"5" - 3 = ${"5" - 3}`);
+console.log(`true + 1 = ${true + 1}`);
+console.log(`"10" * "2" = ${"10" * "2"}`);
+
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 8 — Classificazione numero
@@ -118,6 +123,10 @@ console.log(`Strict Equality ${numero === stringa}`)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let n = 10;
+
+
+
 
 /* --EXTRA-- ESERCIZIO 9 — Triangolo
    Tre const "a", "b", "c" (lunghezze dei lati).
