@@ -149,11 +149,11 @@ console.log(`Il perimetro di un triangolo con lunghezza base 10 e lunghezza entr
 
 
 if (BASE === LATO1 && LATO1 === LATO2) {
-  tipoTriangolo = "equilatero";
+  tipoTriangolo = 'equilatero';
 } else if (BASE === LATO1 || BASE === LATO2 || LATO1 === LATO2) {
-  tipoTriangolo = "isoscele";
+  tipoTriangolo = 'isoscele';
 } else {
-  tipoTriangolo = "scaleno";
+  tipoTriangolo = 'scaleno';
 }
 
 console.log(`Il triangolo è di tipo ${tipoTriangolo}`);
