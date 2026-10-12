@@ -1,0 +1,129 @@
+/*
+REGOLE
+- Le risposte vanno scritte in JavaScript sotto ogni commento.
+- Puoi testare aprendo index.html nel browser e guardando la console (DevTools).
+- In alternativa: nel terminale, `node script.js`.
+- Cerca nei motori di ricerca solo cose non viste a lezione. Tutto il necessario è già stato spiegato stamattina.
+*/
+
+/* ESERCIZIO 1 — Saluto personalizzato
+   Crea due const "nome" e "cognome".
+   Stampa con un template literal: "Ciao, mi chiamo Mario Rossi."
+*/
+
+const NAME = 'Alessandro';
+const SURNAME = 'Lainà';
+console.log(`Ciao, mi chiamo ${NAME} ${SURNAME}`);
+
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+
+/* ESERCIZIO 2 — Calcolatrice base
+   Due numeri "a" e "b".
+   Stampa le 6 operazioni nel formato "10 + 3 = 13":
+   somma, differenza, prodotto, divisione, resto (%), elevamento (**).
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+let a = 10;
+let b = 3;
+
+console.log(`La somma delle due costanti a, che equivale a 10 e b, che equivale a 3 è ${a + b}`);
+console.log(`La loro differenza è ${a - b}`);
+console.log(`Il loro prodotto è ${a * b}`);
+console.log(`La loro divisione è ${a / b}`);
+console.log(`Il resto della loro divisone equivale a ${a % b}`);
+console.log(`Elevato a potenza il primo valore è ${a ** b}`);
+
+
+/* ESERCIZIO 3 — Età nel tempo
+   const annoNascita (scegli un anno).
+   const annoCorrente = 2026.
+   Stampa: età oggi, età tra 10 anni, età 5 anni fa.
+   Formato: "Tra 10 anni avrai 35 anni."
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+const ANNONASCITA = 1992;
+const ANNOCORRENTE = 2026;
+
+console.log(`La mia età oggi è ${ANNOCORRENTE - ANNONASCITA} anni`)
+console.log(`Tra 10 anni avrò ${ANNOCORRENTE - ANNONASCITA + 10} anni`)
+console.log(`Cinque anni fa avevo ${ANNOCORRENTE - ANNONASCITA - 5} anni`)
+
+
+/* ESERCIZIO 4 — Maggiorenne?
+   Variabile "eta".
+   Calcola "maggiorenne" come "eta >= 18".
+   Stampa: "Età: 25 — Maggiorenne: true"
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+let eta = 25;
+console.log(`Età: 25 anni - Maggiorenne: ${eta >= 18}`)
+
+/* ESERCIZIO 5 — Tipo del valore
+   Cinque variabili: una string, una number, una boolean, una null, una undefined.
+   Stampa per ognuna: "nome è di tipo: string" usando typeof.
+   In commento sopra la variabile null: spiega cosa ritorna typeof null e perché.
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+let stringa1 = 'hello World!';
+let numero1 = 15;
+let niente = null;
+let indefinita;
+let attivo = true;
+
+console.log(`La variabile stringa2 è di tipo ${typeof stringa1}`);
+console.log(`La variabile numero2 è di tipo ${typeof numero1}`);
+console.log(`La variabile attivo è di tipo ${typeof attivo}`);
+console.log(`La variabile niente è di tipo ${typeof niente}`);
+console.log(`La variabile indefinita è di tipo ${typeof indefinita}`);
+
+
+
+/* ESERCIZIO 6 — === vs ==
+   numero = 5
+   stringa = "5"
+   Stampa il risultato di "numero == stringa" e "numero === stringa".
+   In commento, una riga: spiega la differenza.
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+let numero = 5;
+let stringa = '5';
+
+/* La prima risulta TRUE perché il valore di numero e il valore di stringa sono uguali, anche se sono di tipo diverso, la seconda risulta FALSE perché essendo di tipo diverso quando si usa Strict Equality per risultare vera dovrebbero si avere lo stesso valore ma dovrebbero anche essere di tipo uguale*/
+console.log(`Equality ${numero == stringa}`)
+console.log(`Strict Equality ${numero === stringa}`)
+
+/* ESERCIZIO 7 — Conversioni implicite
+   Senza eseguire il codice, prevedi in commento il risultato di queste 4 espressioni.
+   Poi stampale per verificare.
+   - "5" + 3
+   - "5" - 3
+   - true + 1
+   - "10" * "2"
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+
+/* ESERCIZIO 8 — Classificazione numero
+   Variabile "n".
+   Usando % e operatori logici, stampa tre righe:
+   "n è pari: true/false"
+   "n è divisibile per 3: true/false"
+   "n è pari E divisibile per 3: true/false"
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+
+/* --EXTRA-- ESERCIZIO 9 — Triangolo
+   Tre const "a", "b", "c" (lunghezze dei lati).
+   Calcola perimetro.
+   Determina il tipo: "equilatero", "isoscele", "scaleno".
+   Stampa: "Triangolo isoscele, perimetro 15"
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
