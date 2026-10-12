@@ -107,10 +107,10 @@ console.log(`Strict Equality ${numero === stringa}`)
    - "10" * "2"
 */
 
-console.log(`"5" + 3 = ${"5" + 3}`);
-console.log(`"5" - 3 = ${"5" - 3}`);
-console.log(`true + 1 = ${true + 1}`);
-console.log(`"10" * "2" = ${"10" * "2"}`);
+console.log(`"5" + 3 = ${"5" + 3}`); //il risultato è 53 perché 5 è una stringa e 3 è un numero, quindi il + non somma ma fa concatenazione
+console.log(`"5" - 3 = ${"5" - 3}`); //al contrario del +, il - non concatena quindi il risultato è 2
+console.log(`true + 1 = ${true + 1}`); //true vale 1, quindi 1+1=2
+console.log(`"10" * "2" = ${"10" * "2"}`); //Sono due stringhe, che vengono moltiplicate da *, quindi 10*2=20
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
